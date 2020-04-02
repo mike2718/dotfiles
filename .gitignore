@@ -5,8 +5,17 @@
 *.7z
 *.rar
 *.jpg
+*.JPG
 *.jpeg
 *.png
+*.pdf
+*.ass
+*.odt
+*.sh
+*.key
+*.tif
+*.xcf
+*.doc
 
 amule/
 clash/
