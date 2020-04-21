@@ -16,6 +16,7 @@
 *.tif
 *.xcf
 *.doc
+*.torrent
 
 amule/
 clash/
@@ -37,6 +38,9 @@ bt/
 download/
 pal/
 tmp/
+image/
+photo/
+soft/
 模板/
 音乐/
 视频/
