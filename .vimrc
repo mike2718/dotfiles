@@ -13,4 +13,7 @@ Plug 'vimwiki/vimwiki'
 call plug#end()
 
 let g:vimwiki_list = [{'path':'~/dev2/minecraft-gonglve.github.io/wiki/',
-	\ 'path_html':'~/dev2/minecraft-gonglve.github.io/'}]
+	\ 'path_html':'~/dev2/minecraft-gonglve.github.io/',
+	\ 'template_path': '~/dev2/minecraft-gonglve.github.io/templates/',
+	\ 'template_default': 'def_template',
+	\ 'template_ext': '.html'}]
