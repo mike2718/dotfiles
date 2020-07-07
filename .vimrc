@@ -3,7 +3,6 @@ set backspace=indent,eol,start
 set number
 filetype plugin on
 syntax on
-set fileencoding=utf-8
 
 map <F4> :Vimwiki2HTML<cr>
 map <S-F4> :VimwikiAll2HTML<cr>
