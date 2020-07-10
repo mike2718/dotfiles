@@ -19,6 +19,7 @@ alias l='ls -CF'
 
 # 自用
 alias lh='ls -lh'
+alias lt='ls -talF'
 alias ldi='ls -d */'
 alias lhf='ls -ld .?*'
 
