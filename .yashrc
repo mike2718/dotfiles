@@ -7,6 +7,7 @@
 # These are additional aliases that are not defined in the common script.
 # Uncomment to enable them.
 alias a='awk'
+alias c='clear'
 alias g='grep'
 alias l='$PAGER'
 alias --global L='|$PAGER'
