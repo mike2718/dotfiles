@@ -24,4 +24,21 @@ alias lt='ls -talF'
 alias ldi='ls -d */'
 alias lhf='ls -ld .?*'
 
+# Command path.
+PATH=/usr/local/bin:/usr/bin:/bin
+PATH=$HOME/bin:$PATH
+PATH=$HOME/.local/bin:$PATH
+
+# PS1 不起作用?
+# PS1='\u\$ '
+
+EDITOR=vim
+VISUAL=vim
+PAGER=less
+LESS=meiX
+
+export PATH EDITOR VISUAL PAGER LESS
+
+umask 022
+
 # vim: set et sw=2 sts=2 tw=78 ft=sh:

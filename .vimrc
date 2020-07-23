@@ -1,4 +1,5 @@
 set nocompatible
+set nu
 filetype plugin on
 syntax on
 
