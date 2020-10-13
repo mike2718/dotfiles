@@ -1,7 +1,35 @@
-set nocompatible
 set number
-filetype plugin on
+set expandtab
+set hlsearch
+set ignorecase
+set incsearch
+set smartcase
+set laststatus=2
+set nocompatible
 syntax on
+set autoindent
+
+filetype plugin on
+
+set showcmd
+set wildmenu
+set hidden
+set backspace=indent,eol,start
+set ruler
+set showmatch
+set noswapfile
+set encoding=utf-8
+set shiftwidth=4
+set tabstop=4
+set autoread
+set undofile
+set splitright
+
+set nowritebackup
+set nobackup
+set virtualedit=block
+set ambiwidth=double
+set showcmd
 
 map <F4> :Vimwiki2HTML<cr>
 map <S-F4> :VimwikiAll2HTML<cr>
@@ -31,7 +59,6 @@ let g:vimwiki_list = [{'path':'~/dev2/minecraft-gonglve.github.io/text/',
 	\ 'auto_toc': 1 }]
 
 let g:vimwiki_toc_header = '目录'
-
 
 call plug#begin('~/.vim/plugged')
 Plug 'vimwiki/vimwiki'
