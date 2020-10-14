@@ -22,7 +22,6 @@ set encoding=utf-8
 set shiftwidth=4
 set tabstop=4
 set autoread
-set undofile
 set splitright
 
 set nowritebackup

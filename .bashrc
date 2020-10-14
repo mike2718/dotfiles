@@ -94,8 +94,8 @@ alias l='ls -CF'
 
 # 自用
 alias lh='ls -lh'
-alias ldir='ls -d */'
-alias ldf='ls -ld .?*'
+alias lsd='ls -d */'
+alias lshf='ls -ld .?*'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert

@@ -21,8 +21,8 @@ alias l='ls -CF'
 # 自用
 alias lh='ls -lh'
 alias lt='ls -talF'
-alias ldi='ls -d */'
-alias lhf='ls -ld .?*'
+alias lsd='ls -d */'
+alias lshf='ls -ld .?*'
 
 # Command path.
 PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
