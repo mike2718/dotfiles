@@ -1,3 +1,4 @@
+*.sh
 *.txt
 *.zip
 *.tar.gz
@@ -11,7 +12,6 @@
 *.pdf
 *.ass
 *.odt
-*.sh
 *.key
 *.tif
 *.xcf
