@@ -2,4 +2,5 @@
 
 sudo apt update
 sudo apt upgrade -y
-#sudo update-grub
+
+sudo grub-mkconfig -o /boot/grub/grub.cfg
