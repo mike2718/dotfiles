@@ -96,6 +96,8 @@ alias l='ls -CF'
 alias lh='ls -lh'
 alias lsd='ls -d */'
 alias lshf='ls -ld .?*'
+alias gitlog='git log --pretty=format:"%h - %an , %ar : %s " --graph'
+alias gits='git status'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
