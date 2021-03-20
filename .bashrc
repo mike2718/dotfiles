@@ -96,6 +96,7 @@ alias l='ls -CF'
 alias lh='ls -lh'
 alias lsd='ls -d */'
 alias lshf='ls -ld .?*'
+alias bc='bc -ql'
 alias gitlog='git log --pretty=format:"%h - %an , %ar : %s " --graph'
 alias gits='git status'
 
