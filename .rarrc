@@ -1,1 +1,1 @@
-switches=-m5 -rr5
+switches=-m5 -rr5 -msjpg;mp3;avi;zip;lzh;rar;7z;tar;gz;bz2;xz;jpg;png

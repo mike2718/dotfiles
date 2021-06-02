@@ -124,4 +124,4 @@ if ! shopt -oq posix; then
   fi
 fi
 
-alias ducks='du -cks * | sort -rn | head'
+alias cp="rsync -avz --progress"
