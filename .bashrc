@@ -125,3 +125,5 @@ if ! shopt -oq posix; then
 fi
 
 alias cp="rsync -avz --progress"
+alias lsblk="lsblk -o NAME,FSTYPE,SIZE,MOUNTPOINT,LABEL"
+alias c="clear"
