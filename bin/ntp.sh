@@ -1,3 +1,3 @@
 #!/bin/sh
 
-sudo ntpdate ntp.ntsc.ac.cn && sudo hwclock --systohc --utc
+sudo ntpdate -u 0.cn.pool.ntp.org && sudo hwclock -w

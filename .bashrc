@@ -127,3 +127,4 @@ fi
 alias cp="rsync -avz --progress"
 alias lsblk="lsblk -o NAME,FSTYPE,SIZE,MOUNTPOINT,LABEL"
 alias c="clear"
+alias date='date "+%Y年%_m月%e日 %_H时%_M分%_S秒  UNIX时间：%s"'
